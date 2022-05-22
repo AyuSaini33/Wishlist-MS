@@ -43,7 +43,7 @@ public class WishListController {
 	@DeleteMapping(value = "/deleteitem/{id}")
 	String deleteWishListItem(@PathVariable("id") Integer wishListId) throws NoSuchWishIdException{
 		wishListService.deleteWishListItem(wishListId);
-		return "success message opopo";
+		return "success message opopo popo";
 	}
 	
 	
